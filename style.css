@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0; 
+    padding: 0;
+    
+    font-family: sans-serif;
+    background: black;
+    color: #fff;
+    font-size: 0.9em;
+    line-height: 1.5;
+    text-align: center;
+}
+header{
+	background-image: url("webpagebackground.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	 justify-content: center;
+	  padding: 0 20px;
+}
+
+
+
+	
+
+header h1{
+    
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+header p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    
+}
+
+header .button{
+    font-size: 18px;
+    text-decoration: none;
+    color:white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+header .button:hover{
+    background: white;
+    color: black;
+}
+
+
+
+
+.card-details .button{
+    font-size: 12px;
+    text-decoration: none;
+    color:white;
+    border: white 1px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    
+}
+
+.card-details .button:hover{
+    background: white;
+    color: black;
+}
+
+
+
+img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+h1, h2,h3{
+
+    margin: 0;
+    padding: 1em 0;
+
+}
+h3{
+    padding-bottom: 5px;
+}
+p{
+    margin: 0;
+    padding: 1em 0;
+}
+
+
+
+
+
+
+
+#section-a{
+    background: black;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	align-items: center;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+   
+    padding-bottom: 2em;
+	
+
+}
+
+#section-a p{
+    padding-left: 2px;
+    padding-right: 2px;
+    
+
+}
+
+#section-b {
+    padding: 2em 1em 1em;
+
+}
+
+#section-b  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b  li{
+  margin-bottom: 1em;
+  background: #333;
+  color: #fff  
+}
+
+#section-b2 {
+    padding: 2em 1em 1em;
+
+}
+
+#section-b2  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#section-b2  li{
+  margin-bottom: 1em;
+  background:#333;
+  color: #fff  
+}
+
+
+.card-details{
+ padding: 1.5em;
+
+}
+
+footer{
+	
+    padding: 10px;
+    background-color:black;
+    color: White;
+   
+}
+footer h4{
+    font-size: 13px;
+    letter-spacing: 1px;
+
+}
+footer p{
+    font-size: 13px;
+    letter-spacing: 2px;
+    padding: 10px;
+    
+}
+
+
+.social-links{
+  font-size: 18px; 
+}
+
+footer .button{
+    font-size: 10px;
+    text-decoration: none;
+    color:white;
+    border: white 1px solid;
+    padding: 10px 10px;
+ 
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+footer .button:hover{
+    background: white;
+    color: black;
+}
+
+/* gallery*/
+ #section-d img {
+    margin: 5px;
+    
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+ 
+
+
+
+
+
+@media(min-width: 700px){
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr repeat(2,minmax(auto,25em)) 1fr;
+    }
+    .content-detail ,.details,#section-b ul , #section-b2 ul{
+        grid-column: 2/4
+    }
+    
+
+    #section-b ul ,#section-b2 ul{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #section-b li, #section-b2 li {
+        width: 31%;
+
+    }
+
+    
+}
